@@ -1,0 +1,1135 @@
+/* ------ PRODUCT DESC ------ */
+/* ------ PRODUCT DESC ------ */
+/* ------ PRODUCT DESC ------ */
+
+.product-desc {
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.prod {
+  height: 20rem;
+  background-color: rgba(23, 18, 18, 0.982);
+  width: 100rem;
+  margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-product {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prod-info-contain {
+  width: 100rem;
+  margin-top: 5.2rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.prod-left {
+  width: 50%;
+  height: 52rem;
+}
+
+.prid {
+  width: 50%;
+  height: 54rem;
+}
+
+.prod-imagery {
+  height: 52rem;
+  background-color: rgb(255, 255, 255);
+  border: 0.5px solid burlywood;
+  width: 100%;
+  padding: 4% 4%;
+  border-radius: 10px;
+}
+
+.prod-imagery > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  /* border: 5.1px solid burlywood; */
+}
+
+.prod-right {
+  height: 52rem;
+  border-radius: 10px;
+  padding: 4%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 0.9px solid burlywood;
+}
+
+.prit {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.5px solid burlywood;
+}
+
+.a1 {
+  border-bottom: 0.5px solid burlywood;
+}
+
+.a1 > h3 {
+  font-size: 23px;
+  margin-bottom: 0.5rem;
+}
+
+.a2 {
+  border-bottom: 0.5px solid burlywood;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.a2 > h3 {
+  font-size: 13px;
+  font-weight: 100;
+  color: grey;
+}
+
+.starg {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  z-index: -1;
+}
+
+.starg > h3 {
+  font-size: 12px;
+  font-weight: 100;
+  color: grey;
+}
+
+.stred {
+  margin-bottom: 0.5rem;
+}
+
+.pricer {
+  margin-top: 0.5rem;
+  font-size: 20px;
+  color: grey;
+}
+
+.a3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.1rem;
+  border-bottom: 0.5px solid burlywood;
+  padding-bottom: 0.5rem;
+}
+
+.info {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.info > h3 {
+  font-size: 16px;
+}
+
+.info > h4 {
+  font-size: 13px;
+  font-weight: 100;
+  color: grey;
+  margin-top: 0.1rem;
+}
+
+.info1 {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.info1 > h3 {
+  font-size: 16px;
+}
+
+.info > h4 {
+  font-size: 13px;
+  font-weight: 100;
+  color: grey;
+  margin-top: 0.1rem;
+}
+
+.preg {
+  display: flex;
+  gap: 1rem;
+}
+
+.preg > span {
+  border: 0.9px solid burlywood;
+  padding: 1px 12px;
+  font-size: 13px;
+  border-radius: 5px;
+  color: rgb(101, 101, 101);
+}
+
+.pren {
+  display: flex;
+  gap: 1rem;
+}
+
+.pren > span {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 1px 12px;
+  font-size: 13px;
+  border-radius: 50%;
+  background-color: burlywood;
+}
+
+.info2 {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.proger {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  justify-content: center;
+}
+
+.compare {
+font-size: 22px;
+}
+
+.proger > h4 {
+  font-size: 14px;
+  font-weight: 100;
+  color: grey;
+  margin-top: -0.2rem;
+}
+
+.info3 {
+  display: flex;
+  gap: 1.1rem;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.info3 > h3 {
+  font-size: 16px;
+}
+
+.info3 > h4 {
+  font-size: 13px;
+  font-weight: 100;
+  color: grey;
+  margin-top: 0.1rem;
+}
+
+.info3button {
+  width: 12rem;
+  padding: 17px 0;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 0.7rem;
+}
+
+.info5 {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: -0.3rem;
+}
+
+.info5 > h3 {
+  font-size: 16px;
+}
+
+.info3 > h4 {
+  font-size: 13px;
+  font-weight: 100;
+  color: grey;
+  margin-top: 0.1rem;
+}
+
+.prpg > h4 {
+  font-size: 13px;
+  font-weight: 100;
+  color: grey;
+  margin-top: 0.1rem;
+  width: 31rem;
+}
+
+.info4 {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin-top: 0.9rem;
+  margin-bottom: 0.6rem;
+}
+
+.info6 {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+
+.info6 > h3 {
+  font-size: 16px;
+  margin-top: 0.2rem;
+}
+
+.info6 > h4 {
+  font-size: 13px;
+  font-weight: 100;
+  color: grey;
+  margin-top: 0.1rem;
+}
+
+.info4 > h3 {
+  font-size: 16px;
+}
+
+.info4 > h4 {
+  font-size: 13px;
+  font-weight: 100;
+  color: grey;
+  margin-top: 0.1rem;
+}
+
+.product-images {
+  margin-top: 3rem;
+  width: 100rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-div {
+  width: 100%;
+  border-radius: 10px;
+  border: 0.9px solid burlywood;
+  display: flex;
+  padding: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-div1 {
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.pih {
+  background-color: rgb(12, 11, 11);
+  width: 20rem;
+  border-radius: 10px;
+}
+
+.pih > img {
+  width: 100%;
+  height: 100%;
+}
+
+.desc {
+  width: 100rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.desx {
+  height: 10rem;
+  width: 100rem;
+  border: 0.9px solid burlywood;
+  display: flex;
+  align-items: center;
+  padding: 4% 4%;
+}
+
+.desx > h4 {
+  font-size: 14px;
+  color: grey;
+  height: 4rem;
+  width: 100%;
+  line-height: 1.3rem;
+}
+
+.desc2 {
+  height: 35rem;
+  width: 100rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.dest {
+  height: 25rem;
+  width: 100rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.dest > h4 {
+  font-size: 14px;
+  color: grey;
+  height: 5rem;
+  width: 100%;
+  line-height: 1.3rem;
+}
+
+@media (max-width: 1585px) {
+  .prod {
+    height: 18rem;
+    width: 85rem;
+  }
+
+  .prod-info-contain {
+    width: 85rem;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .prod-left {
+    width: 50%;
+    height: 49rem;
+  }
+
+  .prid {
+    width: 50%;
+    height: 49rem;
+  }
+
+  .prod-imagery {
+    height: 49rem;
+  }
+
+  .prod-right {
+    height: 49rem;
+  }
+
+  .a3 {
+    gap: 0.6rem;
+  }
+
+  .product-images {
+    margin-top: 3rem;
+    width: 85rem;
+  }
+
+  .desc {
+    width: 85rem;
+  }
+
+  .desx {
+    height: 15rem;
+    width: 85rem;
+  }
+
+  .desc2 {
+    height: 35rem;
+    width: 85rem;
+  }
+
+  .dest {
+    height: 25rem;
+    width: 85rem;
+  }
+}
+
+@media (max-width: 1376px) {
+  .prod {
+    height: 18rem;
+    width: 70rem;
+  }
+
+  .prod-info-contain {
+    width: 70rem;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .stred {
+    display: none;
+  }
+
+  .info1 {
+    display: none;
+  }
+
+  .compare {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .info3 {
+    gap: 0.7rem;
+    margin-top: 0rem;
+  }
+
+  .info3button {
+    width: 10rem;
+  }
+
+  .info4 {
+    margin-top: 0.4rem;
+  }
+
+  .a2 {
+    gap: 0.5rem;
+  }
+
+  .prod-left {
+    width: 50%;
+    height: 40rem;
+  }
+
+  .prid {
+    width: 50%;
+    height: 40rem;
+  }
+
+  .prod-imagery {
+    height: 40rem;
+  }
+
+  .prod-right {
+    height: 40rem;
+  }
+
+  .a3 {
+    gap: 0.6rem;
+  }
+
+  .product-images {
+    margin-top: 3rem;
+    width: 70rem;
+  }
+
+  .desc {
+    width: 70rem;
+  }
+
+  .desx {
+    height: 15rem;
+    width: 70rem;
+  }
+
+  .desc2 {
+    height: 35rem;
+    width: 70rem;
+  }
+
+  .dest {
+    height: 25rem;
+    width: 70rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  .prod {
+    height: 18rem;
+    width: 55rem;
+    margin-top: 0rem;
+  }
+
+  .prod-info-contain {
+    width: 55rem;
+    display: flex;
+    gap: 3rem;
+    margin-top: 4rem;
+  }
+
+  .prod-left {
+    width: 50%;
+    height: 30rem;
+  }
+
+  .prid {
+    width: 50%;
+    height: 30rem;
+  }
+
+  .prod-imagery {
+    height: 30rem;
+  }
+
+  .prod-right {
+    height: 30rem;
+  }
+
+  .stred {
+    display: none;
+  }
+
+  .info1 {
+    display: none;
+  }
+
+  .info5 {
+    display: none;
+  }
+
+  .compare {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .info3 {
+    gap: 0.4rem;
+    margin-top: 0rem;
+  }
+
+  .info3button {
+    width: 6rem;
+    padding: 9px;
+  }
+
+  .info4 {
+    margin-top: 0.4rem;
+  }
+
+  .info > h3 {
+    font-size: 13px;
+  }
+
+  .info4 > h3 {
+    font-size: 13px;
+  }
+
+  .info6 > h3 {
+    font-size: 13px;
+  }
+
+  .a2 {
+    gap: 0.5rem;
+  }
+
+  .a3 {
+    gap: 0.4rem;
+  }
+
+  .product-images {
+    margin-top: 3rem;
+    width: 55rem;
+  }
+
+  .desc {
+    width: 55rem;
+  }
+
+  .desc > h2 {
+    font-size: 20px;
+  }
+
+  .desc2 > h2 {
+    font-size: 20px;
+  }
+
+  .desx {
+    height: 15rem;
+    width: 55rem;
+  }
+
+  .desc2 {
+    height: 35rem;
+    width: 55rem;
+  }
+
+  .dest {
+    height: 25rem;
+    width: 55rem;
+  }
+
+  .desx {
+    height: 10rem;
+  }
+
+  .prod {
+    height: 15rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .prod {
+    height: 14rem;
+    width: 45rem;
+  }
+
+  .prod-info-contain {
+    width: 45rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: 4rem;
+  }
+
+  .prod-left {
+    width: 50%;
+    height: 20rem;
+  }
+
+  .prid {
+    width: 50%;
+    height: 25rem;
+  }
+
+  .prod-imagery {
+    height: 25rem;
+  }
+
+  .prod-right {
+    height: 25rem;
+  }
+
+  .stred {
+    display: none;
+  }
+
+  .info1 {
+    display: none;
+  }
+
+  .info5 {
+    display: none;
+  }
+
+  .compare {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .info3 {
+    gap: 0.4rem;
+    margin-top: 0rem;
+  }
+
+  .info3button {
+    width: 6rem;
+    padding: 9px;
+  }
+
+  .info4 {
+    margin-top: 0.4rem;
+  }
+
+  .info > h3 {
+    font-size: 13px;
+  }
+
+  .info4 > h3 {
+    font-size: 13px;
+  }
+
+  .info6 > h3 {
+    font-size: 13px;
+  }
+
+  .a1 > h3 {
+    font-size: 20px;
+  }
+
+  .a2 {
+    gap: 0.1rem;
+  }
+
+  .a3 {
+    gap: 0.4rem;
+  }
+
+  .pricer {
+    font-size: 18px;
+  }
+
+  .product-images {
+    margin-top: 3rem;
+    width: 45rem;
+  }
+
+  .desc {
+    width: 45rem;
+  }
+
+  .desc > h2 {
+    font-size: 20px;
+  }
+
+  .desc2 > h2 {
+    font-size: 20px;
+  }
+
+  .desx {
+    height: 15rem;
+    width: 45rem;
+  }
+
+  .desc2 {
+    height: 35rem;
+    width: 45rem;
+  }
+
+  .dest {
+    height: 25rem;
+    width: 45rem;
+  }
+
+  .desx {
+    height: 10rem;
+  }
+
+  .info7 {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .prod {
+    height: 13rem;
+    width: 30rem;
+  }
+
+  .product-desc {
+    height: 100%;
+  }
+
+  .prod-info-contain {
+    width: 30rem;
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+
+  .prod-left {
+    width: 100%;
+    height: 100%;
+  }
+
+  .prid {
+    width: 100%;
+    height: 100%;
+  }
+
+  .prod-imagery {
+    height: 30rem;
+  }
+
+  .prod-right {
+    height: 100%;
+  }
+
+  .stred {
+    display: none;
+  }
+
+  .info1 {
+    display: none;
+  }
+
+  .info5 {
+    display: none;
+  }
+
+  .info3 {
+    align-items: center;
+  }
+
+  .compare {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .info3 {
+    gap: 0.4rem;
+    margin-top: 0rem;
+  }
+
+  .info3button {
+    width: 6rem;
+    padding: 9px;
+  }
+
+  .info4 {
+    margin-top: 0.4rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-div1 {
+    gap: 2rem;
+  }
+
+  .info > h3 {
+    font-size: 13px;
+  }
+
+  .info4 > h3 {
+    font-size: 13px;
+  }
+
+  .info6 > h3 {
+    font-size: 13px;
+  }
+
+  .a1 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .a1 > h3 {
+    font-size: 20px;
+  }
+
+  .a2 {
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .a3 {
+    gap: 0.7rem;
+    align-items: center;
+  }
+
+  .pricer {
+    font-size: 18px;
+  }
+
+  .product-images {
+    margin-top: 3rem;
+    width: 30rem;
+  }
+
+  .desc {
+    width: 30rem;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .desc > h2 {
+    font-size: 20px;
+  }
+
+  .desc2 > h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .desx {
+    height: 15rem !important;
+    width: 30rem;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .desc2 {
+    height: 35rem;
+    width: 30rem;
+  }
+
+  .dest {
+    height: 25rem;
+    width: 30rem;
+  }
+
+  .desx {
+    height: 10rem;
+  }
+
+  .info7 {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .prod {
+    height: 13rem;
+    width: 100%;
+    margin-top: 0rem;
+  }
+
+  .product-desc {
+    height: 100%;
+    padding: 0 3%;
+  }
+
+  .prod-info-contain {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+
+  .prod-left {
+    width: 100%;
+    height: 100%;
+  }
+
+  .prid {
+    width: 100%;
+    height: 100%;
+  }
+
+  .prod-imagery {
+    height: 100%;
+  }
+
+  .prod-right {
+    height: 100%;
+  }
+
+  .stred {
+    display: none;
+  }
+
+  .info1 {
+    display: none;
+  }
+
+  .info5 {
+    display: none;
+  }
+
+  .info3 {
+    align-items: center;
+  }
+
+  .compare {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .info3 {
+    gap: 0.4rem;
+    margin-top: 0rem;
+  }
+
+  .info3button {
+    width: 6rem;
+    padding: 9px;
+  }
+
+  .info4 {
+    margin-top: 0.4rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-div1 {
+    gap: 2rem;
+  }
+
+  .info > h3 {
+    font-size: 13px;
+  }
+
+  .info4 > h3 {
+    font-size: 13px;
+  }
+
+  .info6 > h3 {
+    font-size: 13px;
+  }
+
+  .a1 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .a1 > h3 {
+    font-size: 20px;
+  }
+
+  .a2 {
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .a3 {
+    gap: 0.7rem;
+    align-items: center;
+  }
+
+  .pricer {
+    font-size: 18px;
+  }
+
+  .product-images {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .desc {
+    width: 100%;
+    gap: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .desc > h2 {
+    font-size: 20px;
+  }
+
+  .desc2 > h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .desx {
+    height: 15rem;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .desc2 {
+    height: 35rem;
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .dest {
+    height: 25rem;
+    width: 100%;
+  }
+
+  .desx {
+    height: 10rem;
+  }
+
+  .info7 {
+    display: none;
+  }
+}

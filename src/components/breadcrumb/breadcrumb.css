@@ -1,0 +1,15 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: clamp(.5rem 3vw 1rem);
+}
+
+.breadcrumb a {
+  color: black;
+  transition: color 500ms;
+}
+
+.breadcrumb a:hover {
+  color: #E2725B;
+}

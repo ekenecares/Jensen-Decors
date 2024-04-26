@@ -1,0 +1,8 @@
+.totop-div{
+    position: absolute;
+    top: 1em;
+    right: 4%;
+    color: white;
+    font-size: clamp(.8em, 2vw, 1.2em);
+    cursor: pointer;
+}

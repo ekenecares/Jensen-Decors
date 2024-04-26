@@ -1,38 +1,382 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+.embody {
+  background-image: url(images/loginBack.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: aqua; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: "Tilt Neon", sans-serif;
+  /* overflow-x: hidden !important; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* cursor: url("images/cursor2.png"), pointer; */
+  z-index: 1;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav_ul {
+  list-style: none;
+  display: flex;
+  cursor: url("images/cursor2.png"), pointer ;
+}
+
+button {
+  font-family: "Tilt Neon", sans-serif;
+}
+
+body {
+  height: 100%;
+}
+
+.colored {
+  cursor: url("images/cursor.png"), pointer;
+}
+
+.hero-first {
+  cursor: url("images/cursor.png"), pointer;
+}
+
+.toxic {
+  cursor: url("images/cursor.png"), pointer;
+}
+
+.toxic2 {
+  cursor: url("images/cursor.png"), pointer;
+}
+
+.swipea {
+  cursor: pointer !important;
+}
+
+.product {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
   align-items: center;
+  position: relative;
+}
+
+.new {
+  position: absolute;
+  top: 1rem;
+  left: 5%;
+}
+
+.new > h4 {
+  font-size: 13px;
+  color: rgb(255, 165, 165);
+}
+
+.discount {
+  position: absolute;
+  top: 1.1rem;
+  right: 5%;
+}
+
+.discount > h4 {
+  font-size: 12px;
+  color: rgb(92, 92, 92);
+  letter-spacing: 1px;
+  margin-bottom: 2px solid rgb(92, 92, 92);
+}
+
+.discount-line {
+  position: absolute;
+  top: 2.2rem;
+  right: 5%;
+  width: 2rem;
+  background-color: rgb(116, 115, 115);
+  height: 0.1rem;
+}
+
+.product-image {
+  width: 100%;
+  height: 20rem;
+}
+
+.product-image > img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-image > img:last-child {
+  display: none;
+}
+
+.product:hover .product-image > img:nth-child(1) {
+  display: none;
+}
+
+.product:hover .product-image > img:last-child {
+  display: block;
+}
+
+.descript {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.descript > h4 {
+  font-size: 14.5px;
+  letter-spacing: 0.07rem;
+}
+
+.descript > h5 {
+  font-size: 15px;
+  color: gray;
+}
+
+.hovered {
+  display: none;
+}
+
+.product:hover .hovered {
+  display: flex;
+  position: absolute;
+  right: 23.9%;
+  bottom: 18%;
+  gap: 0.7rem;
+}
+
+.hover-img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.hover-img > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1585px) {
+  .product-image {
+    width: 100%;
+    height: 20rem;
+  }
+}
+
+@media (max-width: 1385px) {
+  .product-image {
+    width: 100%;
+    height: 17rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  .product-image {
+    width: 100%;
+    height: 12.5rem;
+  }
+
+  .descript > h4{
+    font-size: 13px;
+  }
+
+  .descript > h5{
+    font-size: 12.5px;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .product-image {
+    width: 100%;
+    height: 10rem;
+  }
+
+  .descript > h4{
+    font-size: 13px;
+  }
+
+  .descript > h5{
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 750px) {
+  .product-image {
+    width: 100%;
+    height: 14rem;
+  }
+
+  .descript > h4{
+    font-size: 13px;
+  }
+
+  .descript > h5{
+    font-size: 12.5px;
+  }
+}
+
+.prod {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/brownwall.jpeg);
+}
+
+.cart-hero {
+  height: 20rem;
+  width: 90rem;
+  border: 0.9px rgb(184, 121, 5) solid;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-image: url(images/brownwall.jpeg);
+}
+
+.shop-hero {
+  margin-top: 3rem;
+}
+
+.shop-hero-div {
+  height: 22rem;
+  width: 90rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
   color: white;
+  text-transform: uppercase;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(images/brownwall.jpeg);
 }
 
-.App-link {
-  color: #61dafb;
+.spanner {
+  color: #ffffff;
+  font-size: 29px;
+  cursor: pointer;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.stars1 {
+  height: 40rem;
+  width: 100%;
+}
+
+.stars5 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.stars2 {
+  height: 20rem;
+  width: 100%;
+  position: absolute;
+}
+
+.stars3 {
+  height: 25rem;
+  width: 90%;
+  position: absolute;
+  z-index: 0;
+}
+
+.stars4 {
+  height: 10.5rem;
+  width: 100%;
+  left: 0%;
+  position: absolute;
+}
+
+.stars5 {
+  height: 100rem;
+  width: 100%;
+  left: 0%;
+  position: absolute;
+  z-index: 0 !important;
+}
+
+.stars6 {
+  height: 28rem;
+  width: 100%;
+  left: 0%;
+  position: absolute;
+  z-index: 0 !important;
+}
+
+.swiper-pagination-bullet {
+  color: #ffffff;
+  background-color: rgb(30, 22, 12);
+  height: 2rem;
+  width: 1.5rem;
+  /* border-radius: 1rem; */
+}
+
+.swiper-pagination-bullet-active {
+  color: #ffffff;
+  background-color: rgb(255, 0, 0);
+  height: 2.5rem;
+  width: 1.5rem;
+  background-image: url(images/brownwall.jpeg);
+  background-size: cover;
+  border-radius: 3rem;
+}
+
+/* ------- RUNNING ------- */
+/* ------- RUNNING ------- */
+/* ------- RUNNING ------- */
+
+.runnin {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.increase-height {
+  margin-top: 5rem;
+}
+
+.run {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  gap: 1.5rem;
+}
+
+.run > h1 {
+  font-weight: 500;
+  font-size: 17px;
+  color: rgba(24, 21, 21, 0.919);
+}
+
+.stampltd {
+  margin-top: -2.3rem;
+  height: 7rem;
+  width: 7rem;
+}
+
+.stampltd > img {
+  height: 100%;
+  width: 100%;
+}
+
+.co-signature {
+  height: 3rem;
+  width: 7rem;
+  margin-top: -0.5rem;
+}
+
+.co-signature > img {
+  height: 100%;
+  width: 100%;
 }

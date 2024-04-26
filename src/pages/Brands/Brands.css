@@ -1,0 +1,29 @@
+.brand-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adjust-brands{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    gap: 2rem;
+    justify-content: center;
+}
+
+.shopBrands{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap: 3rem;
+}
+
+@media (max-width: 750px) {
+    .shopBrands{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
