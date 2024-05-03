@@ -3,6 +3,7 @@ import ReactStars from "react-rating-stars-component";
 import Product from "../../components/Product_data.js/Product";
 import { ShopContext } from "../../components/Context_Api/ContextApi";
 import { IoMdGitCompare } from "react-icons/io";
+import { MdOutlineAddShoppingCart } from "react-icons/md";
 
 const ProductInfo = ({ handleShowComparison, product }) => {
   const { addToCart } = useContext(ShopContext);
@@ -94,6 +95,13 @@ const ProductInfo = ({ handleShowComparison, product }) => {
                     </div>
                     <h4>+ Compare</h4>
                   </div>
+
+                  <div className="proger" onClick={()=>addToCart(product.id)}>
+                    <div className="compare">
+                      <MdOutlineAddShoppingCart />
+                    </div>
+                    <h4>+ Add To Cart</h4>
+                  </div>
                 </div>
               </div>
 
@@ -133,28 +141,6 @@ const ProductInfo = ({ handleShowComparison, product }) => {
           </div>
         </div>
       </div>
-      {/* <div className="product-images">
-        <div className="product-image-div">
-          <div className="image-div">
-            <div className="image-div1">
-              <div className="pih">
-                <img src={product.url} />
-              </div>
-              <div className="pih">
-                <img src={product.url} />
-              </div>
-
-              <div className="pih">
-                <img src={product.url} />
-              </div>
-
-              <div className="pih">
-                <img src={product.url} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className="desc">
         <h2>DESCRIPTION</h2>
         <div className="desx">

@@ -539,6 +539,18 @@ nav {
   .ril{
     font-size: 10px;
   }
+
+  .cta{
+    gap: 0.3rem;
+  }
+
+  .menu-brown {
+    margin-left: 0.2rem;
+  }
+
+  .ril{
+    color: #000000;
+  }
 }
 
 @media screen and (max-width: 560px) {

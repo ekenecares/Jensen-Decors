@@ -3,8 +3,6 @@ import "./Header.css";
 import { NavLink } from "react-router-dom";
 import { RiLoginCircleLine } from "react-icons/ri";
 import { MdOutlineAddShoppingCart } from "react-icons/md";
-import { BiGitCompare } from "react-icons/bi";
-import { BsPersonCircle } from "react-icons/bs";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { FaTimes } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
@@ -14,30 +12,14 @@ import { IoHomeSharp } from "react-icons/io5";
 import { ShopContext } from "../Context_Api/ContextApi";
 import Headroom from "react-headroom";
 import { motion, AnimatePresence, easeInOut } from "framer-motion";
-import logo1 from "../../images/jensenDecor.png"
-import logo2 from "../../images/jensenDecor-logo-white.png"
+import logo1 from "../../images/jensenDecor.png";
+import logo2 from "../../images/jensenDecor-logo-white.png";
 
 const Header = (props) => {
   const navigate = useNavigate();
   let loggedUser = JSON.parse(localStorage.getItem("users"));
   const [showMenu, setShowMenu] = useState(false);
-  const [toggle, setToggle] = useState("nav_toggle");
   const [color, setColor] = useState(false);
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (showMenu) {
-  //       document.body.style.overflow = "hidden";
-  //     } else {
-  //       document.body.style.overflow = "auto";
-  //     }
-  //   };
-
-  //   handleScroll();
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => window.removeEventListener("scroll", handleScroll);
-  // }, [showMenu]);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -59,14 +41,8 @@ const Header = (props) => {
 
   const logo = (
     <div className="logs">
-      <img
-        src={logo1}
-        className={color ? "img-no" : "img-show"}
-      />
-      <img
-        src={logo2}
-        className={color ? "img-show" : "img-no"}
-      />{" "}
+      <img src={logo1} className={color ? "img-no" : "img-show"} />
+      <img src={logo2} className={color ? "img-show" : "img-no"} />{" "}
     </div>
   );
 
@@ -106,17 +82,6 @@ const Header = (props) => {
               <div className="droped-down">
                 <div className="drop-down">
                   <div className="drop"></div>
-                  <div className="stars5">
-                    <Canvas>
-                      <Stars
-                        count={200}
-                        speed={2}
-                        saturation={2}
-                        factor={0.8}
-                        radius={7}
-                      />
-                    </Canvas>
-                  </div>
                   <ShowDropContent />
                 </div>
               </div>
@@ -148,18 +113,10 @@ const Header = (props) => {
                 <NavLink to="/">{logo}</NavLink>
               </div>
 
-              <div id="naver" className={showMenu ? `${"show-nav"}` : `${"hide-nav"}`}>
-              {/* <div className="stars5">
-              <Canvas>
-                <Stars
-                  count={6000}
-                  speed={2}
-                  saturation={11}
-                  factor={0.4}
-                  radius={7}
-                />
-              </Canvas>
-            </div>{" "} */}
+              <div
+                id="naver"
+                className={showMenu ? `${"show-nav"}` : `${"hide-nav"}`}
+              >
                 <div
                   className={
                     showMenu
@@ -173,51 +130,53 @@ const Header = (props) => {
                   <FaTimes className="x" onClick={hideMenu} />
                 </li>
                 <div className="senter">
-                <NavLink to="/category/frame" className="link">
-                  <li>
-                    <DropDown ShowDropContent={Frames}> Frames </DropDown>
-                  </li>
-                </NavLink>
+                  <NavLink to="/category/frame" className="link">
+                    <li>
+                      <DropDown ShowDropContent={Frames}> Frames </DropDown>
+                    </li>
+                  </NavLink>
 
-                <NavLink to="/category/wall-art" className="link">
-                  <li>
-                    <DropDown ShowDropContent={WallArt}>Wall Art</DropDown>
-                  </li>
-                </NavLink>
+                  <NavLink to="/category/metal-wall-art" className="link">
+                    <li>
+                      <DropDown ShowDropContent={WallArt}>Wall Art</DropDown>
+                    </li>
+                  </NavLink>
 
-                <NavLink to="/category/mirror" className="link">
-                  <li>
-                    <DropDown ShowDropContent={Mirror}>Mirror</DropDown>
-                  </li>
-                </NavLink>
+                  <NavLink to="/category/mirror" className="link">
+                    <li>
+                      <DropDown ShowDropContent={Mirror}>Mirror</DropDown>
+                    </li>
+                  </NavLink>
 
-                <NavLink to="/" className="shaper">
-                  <li>
-                    <a className="">
-                      <IoHomeSharp className={color ? "shap lint" : "shap"} />{" "}
-                    </a>
-                  </li>
-                </NavLink>
+                  <NavLink to="/" className="shaper">
+                    <li>
+                      <a className="">
+                        <IoHomeSharp className={color ? "shap lint" : "shap"} />{" "}
+                      </a>
+                    </li>
+                  </NavLink>
 
-                <NavLink to="/category/shelves" className="link">
-                  <li>
-                    <DropDown ShowDropContent={Shelves}>Shelves</DropDown>
-                  </li>
-                </NavLink>
+                  <NavLink to="/category/shelves" className="link">
+                    <li>
+                      <DropDown ShowDropContent={Shelves}>Shelves</DropDown>
+                    </li>
+                  </NavLink>
 
-                <NavLink to="/category/wallpaper" className="link">
-                  <li>
-                    <DropDown ShowDropContent={WallPaper}>Wall Paper</DropDown>
-                  </li>
-                </NavLink>
+                  <NavLink to="/category/wallpaper" className="link">
+                    <li>
+                      <DropDown ShowDropContent={WallPaper}>
+                        Wall Paper
+                      </DropDown>
+                    </li>
+                  </NavLink>
 
-                <NavLink to="/category/taxidermy" className="link">
-                  <li>
-                    <DropDown ShowDropContent={Taxidermy}>
-                      Wall Animals
-                    </DropDown>
-                  </li>
-                </NavLink>
+                  <NavLink to="/category/taxidermy" className="link">
+                    <li>
+                      <DropDown ShowDropContent={Taxidermy}>
+                        Wall Animals
+                      </DropDown>
+                    </li>
+                  </NavLink>
                 </div>
               </div>
 
@@ -235,9 +194,15 @@ const Header = (props) => {
                     <RiLoginCircleLine className="img" />
                   </li>
                 </NavLink>
+
+                <NavLink to="/cart" className="link">
+                  <li>
+                    <MdOutlineAddShoppingCart className="img" />
+                  </li>
+                </NavLink>
                 <NavLink to="/register" className="link">
                   <li>
-                    <BsPersonCircle className="img" />
+                    <h3 className="ril">Register</h3>
                   </li>
                 </NavLink>
               </div>

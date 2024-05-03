@@ -12,6 +12,7 @@ import Contact from "./components/Footer/Contact"
 import products from "./components/Product_data.js/Product_Data";
 import ShopCategory from "./pages/ShopCategory/ShopCategory";
 import Brands from "./pages/Brands/Brands";
+import CartItem from "./components/CartItem/CartItem"
 function App() {
   const categories = [...new Set(products.map((product) => product.category))];
 
@@ -61,6 +62,8 @@ function App() {
             {categoriesRoutes}
             {brandsRoutes}
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/cart" element={<CartItem/>}/>
+
           </Route>
         </Routes>
         <Footer />

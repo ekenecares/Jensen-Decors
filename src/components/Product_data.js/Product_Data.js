@@ -157,7 +157,8 @@ const products = [
     },
     priceCents: 1210,
     discount: 10,
-    productDetailUrl: "",
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fmirror(new)1.docx?alt=media&token=f7df1640-fdee-4528-928f-77cface02419",
   },
   {
     id: 4,
@@ -391,7 +392,8 @@ const products = [
     },
     priceCents: 5578,
     discount: 20,
-    productDetailUrl: "",
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fmirror(new)12.docx?alt=media&token=3c3992df-05b2-4562-a5c8-92ef7285af79",
   },
   {
     id: 73,
@@ -462,7 +464,8 @@ const products = [
     priceCents: 5578,
     discount: 20,
     new: "new",
-    productDetailUrl: "",
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fmirror(new)13.docx?alt=media&token=7e8166d8-2e1e-424f-9ac0-82ceb7b11777",
   },
   {
     id: 76,
@@ -487,6 +490,7 @@ const products = [
     productDetailUrl:
       "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fmirror(new)14.docx?alt=media&token=b562abc9-4726-4bd6-adc6-3b3341516055",
   },
+
   {
     id: 57,
     url: frame_11,
@@ -495,7 +499,7 @@ const products = [
       "Add a touch of safari vibes or a bold graphic statement with zebra head wall-art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
     sales: 20,
     brand: "Aurora",
-    category: "wall-art",
+    category: "metal-wall-art",
     subCategory: "Wall Art",
     available: "in-stock",
     rating: {
@@ -504,6 +508,8 @@ const products = [
     },
     priceCents: 12900,
     begin: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FBlack%20%26%20Bold%20Art.docx?alt=media&token=d221f230-675f-4fa0-86a2-59131491c5e8",
   },
 
   {
@@ -514,7 +520,7 @@ const products = [
       "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
     sales: 20,
     brand: "Aurora",
-    category: "wall-art",
+    category: "metal-wall-art",
     subCategory: "Wall Art",
     available: "in-stock",
     rating: {
@@ -523,6 +529,8 @@ const products = [
     },
     priceCents: 12900,
     begin: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FFrieren's%20Zoglyte.docx?alt=media&token=bec5c194-be2f-494a-bdcc-945a93049c73",
   },
 
   {
@@ -533,7 +541,7 @@ const products = [
       "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
     sales: 20,
     brand: "Aurora",
-    category: "wall-art",
+    category: "metal-wall-art",
     subCategory: "Wall Art",
     available: "in-stock",
     rating: {
@@ -542,6 +550,8 @@ const products = [
     },
     priceCents: 12900,
     begin: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FDark%20arts.docx?alt=media&token=9daab0d5-d5c3-49cb-a207-c8f05805dd7a",
   },
 
   {
@@ -552,7 +562,7 @@ const products = [
       "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
     sales: 20,
     brand: "Darius",
-    category: "wall-art",
+    category: "metal-wall-art",
     subCategory: "abstract wall-art",
     available: "in-stock",
     rating: {
@@ -561,200 +571,12 @@ const products = [
     },
     priceCents: 12900,
     begin: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fhidden%20frame.docx?alt=media&token=dcf897f3-53d6-4d0d-8517-40a2146f6b13",
   },
 
   {
-    id: 65,
-    url: frame_14,
-    title: "Visible Frame",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Darius",
-    category: "wall-art",
-    subCategory: "abstract wall-art",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    categs: 900,
-  },
-
-  {
-    id: 66,
-    url: prod_5,
-    title: "Detective's Spell",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Darius",
-    category: "shelves",
-    subCategory: "Serial Shelves",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    categs: 900,
-  },
-
-  {
-    id: 67,
-    url: prod_1,
-    title: "Melanin's Cure",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Darius",
-    category: "frame",
-    subCategory: "Thermal Shelves",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    categs: 900,
-  },
-
-  {
-    id: 68,
-    url: shelf_11,
-    title: " Fantasies Logic",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Darius",
-    category: "shelves",
-    subCategory: "Corner Shelves",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    categs: 900,
-  },
-
-  {
-    id: 61,
-    url: prod_7,
-    title: "Yajd's Cure",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Danks",
-    category: "wallpaper",
-    subCategory: "Thermal Wallpaper",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    cake: 900,
-  },
-
-  {
-    id: 62,
-    url: prod_2,
-    title: "Melanin's Drip",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Aurora",
-    category: "shelves",
-    subCategory: "Corner Shelves",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    cake: 900,
-  },
-
-  {
-    id: 63,
-    url: prod_3,
-    title: "Willow's Kiss",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Darius",
-    category: "frame",
-    subCategory: "D-Frame",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    cake: 900,
-  },
-
-  {
-    id: 64,
-    url: frame_16,
-    title: "Guillotine Crown",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Danks",
-    category: "frame",
-    subCategory: "D-Frame",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    cake: 900,
-  },
-
-  {
-    id: 64,
-    url: prod_4,
-    title: "Nigga's Plight",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Danks",
-    category: "frame",
-    subCategory: "Savior",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    vake: 900,
-  },
-
-  {
-    id: 64,
-    url: frame_17,
-    title: "Niagara Falls",
-    description:
-      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
-    sales: 20,
-    brand: "Danks",
-    category: "frame",
-    subCategory: "Savior",
-    available: "in-stock",
-    rating: {
-      stars: 2,
-      count: 6,
-    },
-    priceCents: 12900,
-    vake: 900,
-  },
-
-  {
-    id: 64,
+    id: 690,
     url: frame_20,
     title: "Set of 10 Individual Photo Frames",
     description:
@@ -775,7 +597,7 @@ const products = [
   },
 
   {
-    id: 64,
+    id: 640,
     url: frame_21,
     title: "Set of 7 Individual Photo Frames",
     description:
@@ -796,7 +618,217 @@ const products = [
   },
 
   {
+    id: 65,
+    url: frame_14,
+    title: "Visible Frame",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Darius",
+    category: "metal-wall-art",
+    subCategory: "abstract wall-art",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    categs: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FVisible%20frame.docx?alt=media&token=09eb16a3-3720-41bf-a06a-08ae14c1fc2f",
+  },
+
+  {
+    id: 66,
+    url: prod_5,
+    title: "Detective's Spell",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Darius",
+    category: "shelves",
+    subCategory: "Serial Shelves",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    categs: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FDetective's%20spell.docx?alt=media&token=3a13dc29-1c38-482d-baf8-7f19a1de9644",
+  },
+
+  {
+    id: 67,
+    url: prod_1,
+    title: "Melanin's Cure",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Darius",
+    category: "frame",
+    subCategory: "Thermal Shelves",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    categs: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FMelanin's%20cure.docx?alt=media&token=e0101e42-9e06-4868-a8d6-9b467b6adb27",
+  },
+
+  {
+    id: 68,
+    url: shelf_11,
+    title: " Fantasies Logic",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Darius",
+    category: "shelves",
+    subCategory: "Corner Shelves",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    categs: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Ffantasies%20logic.docx?alt=media&token=e444b233-0c4b-4f58-850b-53a4146ca183",
+  },
+
+  {
+    id: 61,
+    url: prod_7,
+    title: "Yajd's Cure",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Danks",
+    category: "wallpaper",
+    subCategory: "Thermal Wallpaper",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    cake: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fyajd's%20cure(wallpaper).docx?alt=media&token=9f5905ca-18fe-4408-bfc6-1171ce5214c4",
+  },
+
+  {
+    id: 62,
+    url: prod_2,
+    title: "Melanin's Drip",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Aurora",
+    category: "shelves",
+    subCategory: "Corner Shelves",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    cake: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FMelanin's%20drip.docx?alt=media&token=37e0ccf7-040c-4222-9eb2-718f416f8ffb",
+  },
+
+  {
+    id: 63,
+    url: prod_3,
+    title: "Willow's Kiss",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Darius",
+    category: "frame",
+    subCategory: "D-Frame",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    cake: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fwillow's%20kiss.docx?alt=media&token=9a969ccc-7669-4c2f-843c-045111d73f94",
+  },
+
+  {
     id: 64,
+    url: frame_16,
+    title: "Guillotine Crown",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Danks",
+    category: "frame",
+    subCategory: "D-Frame",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    cake: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FGuillotine's%20crown.docx?alt=media&token=188c79f6-598d-4961-ac85-ff054217a089",
+  },
+
+  {
+    id: 632,
+    url: prod_4,
+    title: "Nigga's Plight",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Danks",
+    category: "frame",
+    subCategory: "Savior",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    vake: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FNigga's%20Plight.docx?alt=media&token=b511cf36-9822-47be-88a0-723beb77b9d1",
+  },
+
+  {
+    id: 633,
+    url: frame_17,
+    title: "Niagara Falls",
+    description:
+      "Add a touch of safari vibes or a bold graphic statement with zebra head wall art. Replicate the iconic black and white stripes in stunning detail, creating a conversation piece that feels like a trip to the African savanna.",
+    sales: 20,
+    brand: "Danks",
+    category: "frame",
+    subCategory: "Savior",
+    available: "in-stock",
+    rating: {
+      stars: 2,
+      count: 6,
+    },
+    priceCents: 12900,
+    vake: 900,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2FNiagraa%20falls.docx?alt=media&token=17b0e0ff-2204-4e2d-975c-4a32eb7e0069",
+  },
+
+  {
+    id: 641,
     url: frame_18,
     title: "Photo Frame Collage for Wall Decor",
     description:
@@ -817,7 +849,7 @@ const products = [
   },
 
   {
-    id: 64,
+    id: 642,
     url: frame_19,
     title: "Wall Photo Frame for Home Décor",
     description:
@@ -844,7 +876,7 @@ const products = [
       "Make a statement with your home decor with our huge variety of wall decor. Our expertly crafted art designs are sure to enhance the look and feel of any room. Whether you're looking for a bold, colorful print, traditional landscape, sentimental message or a subtle, minimalist design, we've got you covered. Wall art adds a touch of your very own personality throughout your home.",
     sales: 15,
     brand: "Laila Ali",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "Abstract wall-art",
     available: "in-stock",
     rating: {
@@ -864,7 +896,7 @@ const products = [
       "Laila Ali brings the mindset of a world-champion athlete and passion for healthy living to create a modern lifestyle collection with serious style found only At Home. This cool gold and silver linked cube wall decor is an easy way to add a pop of charm to any room. Bring new life to your patio, kitchen or living room with this interesting 24in. metal centerpiece wall art. Featuring a brilliant silver and gold coloration and layered squares and rectangles, this figural art will bring years of enjoyment and add to your wonderfully glam setting.",
     sales: 99,
     brand: "Laila Ali",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "Geometric wall-art",
     available: "in-stock",
     rating: {
@@ -883,7 +915,7 @@ const products = [
       "Bring serenity and beauty to your walls with this blooming lotus floral wall decal. This decorative decal features a stunning lotus flower in a vibrant, artistic design. The symbol of purity and enlightenment, this lotus decal will create a tranquil atmosphere in any room. Easy to apply and remove, it's the perfect way to add a touch of floral elegance to your home.",
     sales: 9,
     brand: "Laila Ali",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "Geometric wall-art",
     available: "in-stock",
     rating: {
@@ -892,7 +924,7 @@ const products = [
     },
     priceCents: 4390,
     productDetailUrl:
-      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fmetal%20wall%202.docx?alt=media&token=8647863e-adf0-481d-b55f-7c22f55e13c8",
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fmetal%20wall%208.docx?alt=media&token=0c69a093-8e80-4a94-9427-53703c7e6adb",
   },
   {
     id: 16,
@@ -902,7 +934,7 @@ const products = [
       "Crafted from sleek stainless steel, this piece features a captivating interplay of geometric shapes, swirling lines, textured patterns. The polished gleam, rich patina of the metal adds a touch of modern sophistication, making it a conversation starter in any room.",
     sales: 32,
     brand: "Fioral",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "Geometric wall-art",
     available: "in-stock",
     rating: {
@@ -910,7 +942,8 @@ const products = [
       count: 22,
     },
     priceCents: 12000,
-    productDetailUrl: "",
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fmetal%20wall%202.docx?alt=media&token=8647863e-adf0-481d-b55f-7c22f55e13c8",
   },
   {
     id: 17,
@@ -920,7 +953,7 @@ const products = [
       "This vibrant metal wall-art panel captures the essence of a tangerine treasure. The rich orange hues, expertly crafted in a metallic finish, will add a touch of warmth and vibrancy to any space. The geometric patterns create a dynamic visual experience, making this a unique and eye-catching piece.",
     sales: 4,
     brand: "Fioral",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "Abstract wall-art",
     available: "in-stock",
     rating: {
@@ -939,7 +972,7 @@ const products = [
       "Aesthetics are what bless your home when you handpick the best pieces for it, making it stand out. This unique wall-art is inspired by the tranquility of aquatic plant...",
     sales: 9,
     brand: "Fioral",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "Abstract wall-art",
     available: "in-stock",
     rating: {
@@ -958,7 +991,7 @@ const products = [
       "Simplicity is the ultimate sophistication. Give your walls a delicate touch of charm with this simple yet fascinating wall-art. Capturing the authenticity of modern art, its colour palette is vibrant...",
     sales: 22,
     brand: "Darius",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "geometric wall-art",
     available: "in-stock",
     rating: {
@@ -977,7 +1010,7 @@ const products = [
       "Give your walls the attention they deserve with our captivating selection of wall decor. Our curated collection or art features an array of beautiful, on-trend designs, styles and subject matter that is perfect for any style of decorating. Our wall-art is expertly crafted to bring your favorite subjects and designs to life, so you can enjoy them for years to come. We have a wide range of art styles, colors and medias to suit any design or taste. Wall decor adds a touch of your very own personality throughout your home.",
     sales: 2,
     brand: "Iwaju",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "geometric wall-art",
     available: "in-stock",
     rating: {
@@ -996,7 +1029,7 @@ const products = [
       "Designed to capture the essence of contemporary style, this irregular wall-art effortlessly combines form and function. Featuring a unique design with distinctive finishes, it adds a captivating visual appeal to any room.",
     sales: 101,
     brand: "Iwaju",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "geometric wall-art",
     available: "in-stock",
     rating: {
@@ -1015,7 +1048,7 @@ const products = [
       "A collection that lets everyone relax in style. Polished finishes and classic hues pair with fun finds. Providence is where elegant settings still feel comfortable and warm—exclusively At Home. With an overarching floral in a multicolor palette this piece of artwork will add a dynamic feel to your home decor. This framed 12in. mirror floral wall decor has a hand crafted look in this wonderful colorway. This unique print is the perfect finishing touch to your getaway cottage or main residence alike.",
     sales: 80,
     brand: "Iwaju",
-    category: "wall art",
+    category: "metal-wall-art",
     subCategory: "abstract wall-art",
     available: "in-stock",
     rating: {
@@ -1159,7 +1192,8 @@ const products = [
       count: 3,
     },
     priceCents: 1250,
-    productDetailUrl: "",
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fwall%20sheleves%208.docx?alt=media&token=4d621d4e-357d-46dc-a9e6-7dd022925d20",
   },
   {
     id: 30,
@@ -1200,6 +1234,8 @@ const products = [
     },
     available: "in-stock",
     priceCents: 2300,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fphoto%20frame%201.docx?alt=media&token=e841c70b-6fea-4700-941f-cbe788869d43",
   },
   {
     id: 32,
@@ -1217,6 +1253,8 @@ const products = [
     },
     available: "in-stock",
     priceCents: 6350,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fphoto%20frame%202(new).docx?alt=media&token=8b2b1b6d-51f4-48cb-a344-8717c1b8db87",
   },
   {
     id: 33,
@@ -1234,6 +1272,8 @@ const products = [
     },
     available: "in-stock",
     priceCents: 1170,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fphoto%20frame%203.docx?alt=media&token=8a4d895b-3943-4fd5-b3fc-caed0edad441",
   },
   {
     id: 34,
@@ -1251,6 +1291,8 @@ const products = [
     },
     available: "in-stock",
     priceCents: 5100,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fphoto%20frame%204(new).docx?alt=media&token=24adc618-3769-45d2-bd95-15366ff39801",
   },
   {
     id: 35,
@@ -1268,6 +1310,8 @@ const products = [
     },
     available: "out-of-ock",
     priceCents: 1200,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fphoto%20frame%205.docx?alt=media&token=7024214e-c3cd-418f-a2ba-f2e675eaa412",
   },
   {
     id: 36,
@@ -1285,6 +1329,8 @@ const products = [
     },
     available: "in-stock",
     priceCents: 1240,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fphoto%20frame%204(new).docx?alt=media&token=24adc618-3769-45d2-bd95-15366ff39801",
   },
   {
     id: 37,
@@ -1302,6 +1348,8 @@ const products = [
     },
     available: "in-stock",
     priceCents: 3200,
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fphoto%20frame%207.docx?alt=media&token=8661ff41-4c0b-494d-a836-90b18b049769",
   },
 
   {
@@ -1320,25 +1368,9 @@ const products = [
     },
     available: "in-stock",
     priceCents: 6300,
-  },
-  {
-    id: 39,
-    url: frame,
-    title: "Faded Summer Print",
-    description:
-      "Faded Summer Premium Framed Print - Ready to Hang A Premium Framed Print created to last. Framed in distressed wood and available in an array of sizes and colors Featuring a beveled a solid wood stretcher bar ",
-    sales: 12,
-    brand: "beavis",
-    category: "frame",
-    subcategory: "wooden photo frames",
-    rating: {
-      stars: 3,
-      count: 2,
-    },
-    available: "out-of-stock",
-    priceCents: 2400,
-  },
-  //Photo frame art end
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fphoto%20frame%209.docx?alt=media&token=e75dd45a-a2fd-4047-ae98-5c01ea4081c7",
+  }, //Photo frame art end
 
   //wallpaper
   {
@@ -1357,7 +1389,8 @@ const products = [
     },
     available: "in-stock",
     priceCents: 5000,
-    productDetailUrl: "",
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fwallpaper%203(1).docx?alt=media&token=eb2d6fa0-00b6-4d77-a4ce-4d6e9ccc9c9f",
   },
   {
     id: 41,
@@ -1547,7 +1580,8 @@ const products = [
       count: 22,
     },
     priceCents: 17700,
-    productDetailUrl: "",
+    productDetailUrl:
+      "https://firebasestorage.googleapis.com/v0/b/jensendecors.appspot.com/o/word_doc%2Fmounted%20animal%202.docx?alt=media&token=63e14f8d-4475-4662-81eb-9f9db1190df9",
   },
   {
     id: 51,

@@ -25,7 +25,6 @@ const Home = (props) => {
   const write = "AURORA BRANDS".split("");
   const writer = "DARIUS BRANDS".split("");
 
-
   const COLORS = [
     "rgba(103, 1, 108, 0.382)",
     "rgba(255, 100, 120, 0.302)",
@@ -50,7 +49,8 @@ const Home = (props) => {
 
   return (
     <div className="home">
-      <div className="hero-center">
+      {/* ----- HERO SECTION ----- */}
+      <section className="hero-center">
         <section className="hero-page">
           <div className="homeo">
             <motion.div style={{ backgroundImage }} className="colored">
@@ -126,7 +126,10 @@ const Home = (props) => {
               </div>
             </div>
 
-            <button className="home-button"  onClick={()=>navigate("/category/frame")}>
+            <button
+              className="home-button"
+              onClick={() => navigate("/category/frame")}
+            >
               {" "}
               <h3>Shop</h3>
             </button>
@@ -217,8 +220,9 @@ const Home = (props) => {
             </motion.div>
           </div>
         </section>
-      </div>
+      </section>
 
+      {/* ----- BRAND A SECTION ----- */}
       <section className="toxic2">
         <div className="stars3">
           {" "}
@@ -243,6 +247,7 @@ const Home = (props) => {
         </motion.div>
       </section>
 
+      {/* ----- CATEGORY SECTION ----- */}
       <section className="full-sect">
         <div className="full-enclose">
           <div className="full-section">
@@ -274,9 +279,9 @@ const Home = (props) => {
                 <div className="fill2">
                   <div className="category-fillter">
                     <li onClick={() => navigate("")}>
-                      <a className="aee">All</a>
+                      <a className="aee">New</a>
                     </li>
-                    <li onClick={() => navigate("")}>
+                    <li onClick={() => navigate("/category/wall-art")}>
                       <a>Wall Mount</a>
                     </li>
                   </div>
@@ -285,12 +290,7 @@ const Home = (props) => {
                     <div className="banshee">
                       {products.map((product, i) => {
                         if (product.begin) {
-                          return (
-                            <Product
-                            key={i}
-                              {...product}
-                            />
-                          );
+                          return <Product key={i} {...product} />;
                         } else {
                           return null;
                         }
@@ -305,11 +305,7 @@ const Home = (props) => {
                 <div className=" greater">
                   {products.map((product, i) => {
                     if (product.categs) {
-                      return (
-                        <Product
-                          {...product}
-                        />
-                      );
+                      return <Product {...product} />;
                     } else {
                       return null;
                     }
@@ -321,6 +317,7 @@ const Home = (props) => {
         </div>
       </section>
 
+      {/* ----- BRAND B SECTION ----- */}
       <section className="toxic">
         <div className="stars3">
           {" "}
@@ -345,12 +342,14 @@ const Home = (props) => {
         </motion.div>
       </section>
 
+      {/* ----- SHUFFLE SECTION ----- */}
       <section className="shuffle-section">
         <div className="shuffle">
           <Shuffle />
         </div>
       </section>
 
+      {/* ----- PRODUCT SECTION ----- */}
       <section className="next-first">
         <section className="best-first">
           <div className="best-header">
@@ -363,11 +362,7 @@ const Home = (props) => {
             <div className=" next-div-under">
               {products.map((product, i) => {
                 if (product.cake) {
-                  return (
-                    <Product
-                      {...product}
-                    />
-                  );
+                  return <Product {...product} />;
                 } else {
                   return null;
                 }
@@ -375,81 +370,11 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        {/* <section className="best">
-          <div className="great">
-            <div className=" greater">
-              {products.map((product, i) => {
-                if (product.new) {
-                  return (
-                    <Product
-                      id={product.id}
-                      image={product.url}
-                      name={product.title}
-                      price={product.priceCents}
-                      discount={product.discount}
-                    />
-                  );
-                } else {
-                  return null;
-                }
-              })}
-            </div>
-          </div>
-        </section> */}
 
         <section className="carousel-section">
-        <Carousel />
+          <Carousel />
+        </section>
       </section>
-      </section>
-
-      {/* <section className="ceezar">
-        <div className="grand">
-          <div className="terrific">
-            <div className="bravo">
-              <img src="/images/animal mount.jpeg" />
-            </div>
-            <div className="wow">
-              <div className="wower">
-                <div className="wowed">
-                  <div className="craze">
-                    <h3>Wall Mounted Displays</h3>
-                    <h4>
-                      Using the message bar underneath, clients can send the
-                      required specs needed for the creation of your specific
-                      wall animals, these details must state the color, material
-                      and the requests must be understable and reasonable.
-                    </h4>
-                  </div>
-                  <div className="amaze">
-                    <div className="fantastic1 f1">
-                      {" "}
-                      <img src="images/metal-animal.jpeg" />
-                      <h4>Bronze Mounted Axis</h4>
-                      <h5 className="prices">$160</h5>
-                    </div>
-                    <div className="fantastic f2">
-                      {" "}
-                      <img src="images/omo.jpg" />
-                      <h4>Bronze Mounted Axis</h4>
-                      <h5 className="prices">$130</h5>
-                    </div>
-                    <div className="fantastic f3">
-                      {" "}
-                      <img src="images/moo.jpeg" />
-                      <h4>Bronze Mounted Axis</h4>
-                      <h5 className="prices">$120</h5>
-                    </div>
-                  </div>
-                  <div className="form">
-                    <input type="email" placeholder=""></input>
-                    <button>Submit</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </div>
   );
 };

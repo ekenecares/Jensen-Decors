@@ -39,8 +39,8 @@ const Footer = () => {
               <h4>About</h4>
             </div>
             <p onClick={()=>navigate("/contact")}> Contact</p>
-            <p onClick={()=>navigate("/cart")}> Cart</p>
-            <p onClick={()=>navigate("/terms")}> Terms & Conditions</p>
+            <p onClick={()=>navigate("/category/frame")}> Frames</p>
+            <p onClick={()=>navigate("/brands/darius")}> Brands</p>
           </div>
 
           <div class="col3">
